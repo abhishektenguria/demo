@@ -1,5 +1,16 @@
-aaaaaaaaaaaaaaaaaaaaaaaa
-bbbbbbbbbbbbbbbbbbbbbbbbb
-ccccccccccccccccccccccccc11
-22
-33
+//current directory should be file package 
+$ git checkout db811cecc02df2c511c869e979a22f71352bc7f1 test1.txt
+$ git checkout db811cecc02df2c511c869e979a22f71352bc7f1 -- test1.txt test2.txt (-- mean)
+$ git checkout 73b6cf0 -- test1.txt
+
+https://stackoverflow.com/questions/22750028/in-git-what-does-dash-dash-mean
+To ignore whatever you have added via git add and commit the changes in a specific file, use git commit -- <filename>
+git add. To commit a file whose name begins with a - or a --, you must tell git add to stop reading parameters, and start reading filenames; -- does that.
+git add -- -sample.txt
+
+git checkout main -- <fileName>
+aaaaaaaaaaaaaaaaaaa
+git reset --hard f414f31 (dont use hard use mixd)
+$ git reset --mixed HEAD~1 (head~1 or head~2 or head~3)
+$ git reset --mixed d3b7deb (specific commit)
+git commit -m "Reverting to the state of the project at f414f31"
