@@ -1,1 +1,3 @@
 aaaaaaaaaaaaaaaaaaaaaaaa
+//current directory should be file package 
+$ git checkout db811cecc02df2c511c869e979a22f71352bc7f1 test1.txt
