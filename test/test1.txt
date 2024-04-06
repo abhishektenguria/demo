@@ -10,3 +10,8 @@ git add -- -sample.txt
 
 git checkout main -- <fileName>
 
+
+
+
+
+
